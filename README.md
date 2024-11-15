@@ -57,7 +57,7 @@ To run this project locally:
 
 2. Open index.html in a web browser.
 
-Alternatively, you can visit [my demo page](https://github.com/HR-Suriya/my-weather-app) for a live demo of the project.
+Alternatively, you can visit [my demo page](https://hr-suriya.github.io/my-weather-app/) for a live demo of the project.
 
 ## How to Use
 
