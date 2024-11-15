@@ -1,0 +1,125 @@
+/* Designing Body */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(0deg, #020024 0%,#00008b 20%, #090979 40%, #4169e1 70%, #87ceeb 85%, #add8e6 100%);
+    background-size: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0%;
+    color: white;
+    padding: 0%;
+}
+
+/* Container Where Everything Is Shown */
+.container {
+    margin-top: 8%;
+    text-align: center;
+    background: linear-gradient(30deg, #020024 0%,#00008b 20%, #090979 40%, #4169e1 70%, #87ceeb 85%, #add8e6 100%);
+    padding: 4%;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    max-width: 80%;
+}
+
+/* Styling Logo Image */
+.logo{
+    position: relative;
+    margin-top: -40%;
+    max-width: 42%;
+}
+
+/* Weather App Heading */
+h1{
+    color: white;
+}
+
+/* Designing Input Bar For Location */
+input{
+    padding: 2%;
+    margin: 5% 0%;
+    width: 45%;
+    height: auto;
+    background: transparent;
+    border: 3px solid blue;
+    border-radius: 8px;
+    color: white;
+    font-weight: 600;
+}
+input::placeholder{
+    color: lightgray;
+    font-weight: lighter;
+}
+input:focus{
+    color: white;
+    border: none;
+    outline: 3px solid blue;
+}
+
+/* Button Designing */
+button{
+    padding: 2% 3%;
+    background: linear-gradient(30deg, #020024 0%,#00008b 15%, #090979 45%, #4169e1 75%, #87ceeb 88%, #add8e6 100%);
+    color: white;
+    font-weight: 600;
+    border: none;
+    border-radius: 8px;
+    margin-top: 2%;
+}
+button:hover{
+    cursor: pointer;
+}
+button:focus{
+    outline: none;
+}
+
+/* Weather Result Designing Which Comes Through JS */
+#weatherResult {
+    margin-top: 4%;
+    h2{
+        color: skyblue;
+    }
+}
+#moreResult{
+    margin-top: 4%;
+    display: none;
+}
+#moreResult {
+    margin-top: 4%;
+    display: none;
+    cursor: pointer;
+    color: skyblue;
+}
+#lessDetails {
+    margin-top: 4%;
+    display: none;
+    cursor: pointer;
+    color: skyblue;
+}
+
+/* Footer Designing*/
+footer{
+    position: fixed;
+    bottom: 0%;
+    right: 0%;
+    display: flex;
+    background-color: transparent;
+    justify-content: center;
+    align-items: center;
+    padding: 0 1rem;
+    font-size: x-large;
+}
+footer p{
+    font-weight: 500;
+    a{
+        text-shadow: none;
+        text-decoration: none;
+        color: white;
+        transition: color .3s;
+        cursor: pointer;
+    }
+    a:hover{
+        color: darkgray;
+    }
+}
